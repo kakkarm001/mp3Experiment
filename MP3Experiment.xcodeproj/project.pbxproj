@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131F08A61BB9D999002B9294 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 131F08A11BB9D998002B9294 /* bg.png */; settings = {ASSET_TAGS = (); }; };
+		131F08A71BB9D999002B9294 /* mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 131F08A21BB9D998002B9294 /* mp3.mp3 */; settings = {ASSET_TAGS = (); }; };
+		131F08A81BB9D999002B9294 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 131F08A31BB9D998002B9294 /* play.png */; settings = {ASSET_TAGS = (); }; };
+		131F08A91BB9D999002B9294 /* sawesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 131F08A41BB9D999002B9294 /* sawesome.ttf */; settings = {ASSET_TAGS = (); }; };
+		131F08AA1BB9D999002B9294 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 131F08A51BB9D999002B9294 /* stop.png */; settings = {ASSET_TAGS = (); }; };
+		13E46DB31BB801E30001A7CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E46DB21BB801E30001A7CC /* AppDelegate.swift */; };
+		13E46DB51BB801E30001A7CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E46DB41BB801E30001A7CC /* ViewController.swift */; };
+		13E46DB81BB801E30001A7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E46DB61BB801E30001A7CC /* Main.storyboard */; };
+		13E46DBA1BB801E30001A7CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E46DB91BB801E30001A7CC /* Assets.xcassets */; };
+		13E46DBD1BB801E30001A7CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E46DBB1BB801E30001A7CC /* LaunchScreen.storyboard */; };
+		13E46DC81BB801E30001A7CC /* MP3ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E46DC71BB801E30001A7CC /* MP3ExperimentTests.swift */; };
+		13E46DD31BB801E30001A7CC /* MP3ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E46DD21BB801E30001A7CC /* MP3ExperimentUITests.swift */; };
+		13E46DE11BB8059A0001A7CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E46DE01BB8059A0001A7CC /* AVFoundation.framework */; };
+		13E46DF41BB88EF80001A7CC /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E46DF31BB88EF80001A7CC /* Timer.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13E46DC41BB801E30001A7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E46DA71BB801E20001A7CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E46DAE1BB801E30001A7CC;
+			remoteInfo = MP3Experiment;
+		};
+		13E46DCF1BB801E30001A7CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13E46DA71BB801E20001A7CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13E46DAE1BB801E30001A7CC;
+			remoteInfo = MP3Experiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131F08A11BB9D998002B9294 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		131F08A21BB9D998002B9294 /* mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mp3.mp3; sourceTree = "<group>"; };
+		131F08A31BB9D998002B9294 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		131F08A41BB9D999002B9294 /* sawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sawesome.ttf; sourceTree = "<group>"; };
+		131F08A51BB9D999002B9294 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		13E46DAF1BB801E30001A7CC /* MP3Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP3Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E46DB21BB801E30001A7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E46DB41BB801E30001A7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13E46DB71BB801E30001A7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E46DB91BB801E30001A7CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E46DBC1BB801E30001A7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E46DBE1BB801E30001A7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E46DC31BB801E30001A7CC /* MP3ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP3ExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E46DC71BB801E30001A7CC /* MP3ExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3ExperimentTests.swift; sourceTree = "<group>"; };
+		13E46DC91BB801E30001A7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E46DCE1BB801E30001A7CC /* MP3ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP3ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E46DD21BB801E30001A7CC /* MP3ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP3ExperimentUITests.swift; sourceTree = "<group>"; };
+		13E46DD41BB801E30001A7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E46DE01BB8059A0001A7CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		13E46DF31BB88EF80001A7CC /* Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E46DAC1BB801E30001A7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E46DE11BB8059A0001A7CC /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DC01BB801E30001A7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DCB1BB801E30001A7CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131F08A01BB9D998002B9294 /* Recourses */ = {
+			isa = PBXGroup;
+			children = (
+				131F08A11BB9D998002B9294 /* bg.png */,
+				131F08A21BB9D998002B9294 /* mp3.mp3 */,
+				131F08A31BB9D998002B9294 /* play.png */,
+				131F08A41BB9D999002B9294 /* sawesome.ttf */,
+				131F08A51BB9D999002B9294 /* stop.png */,
+			);
+			path = Recourses;
+			sourceTree = "<group>";
+		};
+		13E46DA61BB801E20001A7CC = {
+			isa = PBXGroup;
+			children = (
+				13E46DE01BB8059A0001A7CC /* AVFoundation.framework */,
+				13E46DB11BB801E30001A7CC /* MP3Experiment */,
+				13E46DC61BB801E30001A7CC /* MP3ExperimentTests */,
+				13E46DD11BB801E30001A7CC /* MP3ExperimentUITests */,
+				13E46DB01BB801E30001A7CC /* Products */,
+				131F08A01BB9D998002B9294 /* Recourses */,
+			);
+			sourceTree = "<group>";
+		};
+		13E46DB01BB801E30001A7CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E46DAF1BB801E30001A7CC /* MP3Experiment.app */,
+				13E46DC31BB801E30001A7CC /* MP3ExperimentTests.xctest */,
+				13E46DCE1BB801E30001A7CC /* MP3ExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E46DB11BB801E30001A7CC /* MP3Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				13E46DB21BB801E30001A7CC /* AppDelegate.swift */,
+				13E46DB41BB801E30001A7CC /* ViewController.swift */,
+				13E46DB61BB801E30001A7CC /* Main.storyboard */,
+				13E46DB91BB801E30001A7CC /* Assets.xcassets */,
+				13E46DBB1BB801E30001A7CC /* LaunchScreen.storyboard */,
+				13E46DBE1BB801E30001A7CC /* Info.plist */,
+				13E46DF31BB88EF80001A7CC /* Timer.swift */,
+			);
+			path = MP3Experiment;
+			sourceTree = "<group>";
+		};
+		13E46DC61BB801E30001A7CC /* MP3ExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				13E46DC71BB801E30001A7CC /* MP3ExperimentTests.swift */,
+				13E46DC91BB801E30001A7CC /* Info.plist */,
+			);
+			path = MP3ExperimentTests;
+			sourceTree = "<group>";
+		};
+		13E46DD11BB801E30001A7CC /* MP3ExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13E46DD21BB801E30001A7CC /* MP3ExperimentUITests.swift */,
+				13E46DD41BB801E30001A7CC /* Info.plist */,
+			);
+			path = MP3ExperimentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E46DAE1BB801E30001A7CC /* MP3Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E46DD71BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3Experiment" */;
+			buildPhases = (
+				13E46DAB1BB801E30001A7CC /* Sources */,
+				13E46DAC1BB801E30001A7CC /* Frameworks */,
+				13E46DAD1BB801E30001A7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MP3Experiment;
+			productName = MP3Experiment;
+			productReference = 13E46DAF1BB801E30001A7CC /* MP3Experiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E46DC21BB801E30001A7CC /* MP3ExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E46DDA1BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3ExperimentTests" */;
+			buildPhases = (
+				13E46DBF1BB801E30001A7CC /* Sources */,
+				13E46DC01BB801E30001A7CC /* Frameworks */,
+				13E46DC11BB801E30001A7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E46DC51BB801E30001A7CC /* PBXTargetDependency */,
+			);
+			name = MP3ExperimentTests;
+			productName = MP3ExperimentTests;
+			productReference = 13E46DC31BB801E30001A7CC /* MP3ExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13E46DCD1BB801E30001A7CC /* MP3ExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E46DDD1BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3ExperimentUITests" */;
+			buildPhases = (
+				13E46DCA1BB801E30001A7CC /* Sources */,
+				13E46DCB1BB801E30001A7CC /* Frameworks */,
+				13E46DCC1BB801E30001A7CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13E46DD01BB801E30001A7CC /* PBXTargetDependency */,
+			);
+			name = MP3ExperimentUITests;
+			productName = MP3ExperimentUITests;
+			productReference = 13E46DCE1BB801E30001A7CC /* MP3ExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E46DA71BB801E20001A7CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = manish;
+				TargetAttributes = {
+					13E46DAE1BB801E30001A7CC = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					13E46DC21BB801E30001A7CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 13E46DAE1BB801E30001A7CC;
+					};
+					13E46DCD1BB801E30001A7CC = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 13E46DAE1BB801E30001A7CC;
+					};
+				};
+			};
+			buildConfigurationList = 13E46DAA1BB801E20001A7CC /* Build configuration list for PBXProject "MP3Experiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E46DA61BB801E20001A7CC;
+			productRefGroup = 13E46DB01BB801E30001A7CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E46DAE1BB801E30001A7CC /* MP3Experiment */,
+				13E46DC21BB801E30001A7CC /* MP3ExperimentTests */,
+				13E46DCD1BB801E30001A7CC /* MP3ExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E46DAD1BB801E30001A7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E46DBD1BB801E30001A7CC /* LaunchScreen.storyboard in Resources */,
+				131F08AA1BB9D999002B9294 /* stop.png in Resources */,
+				131F08A71BB9D999002B9294 /* mp3.mp3 in Resources */,
+				13E46DBA1BB801E30001A7CC /* Assets.xcassets in Resources */,
+				131F08A91BB9D999002B9294 /* sawesome.ttf in Resources */,
+				131F08A61BB9D999002B9294 /* bg.png in Resources */,
+				13E46DB81BB801E30001A7CC /* Main.storyboard in Resources */,
+				131F08A81BB9D999002B9294 /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DC11BB801E30001A7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DCC1BB801E30001A7CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E46DAB1BB801E30001A7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E46DF41BB88EF80001A7CC /* Timer.swift in Sources */,
+				13E46DB51BB801E30001A7CC /* ViewController.swift in Sources */,
+				13E46DB31BB801E30001A7CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DBF1BB801E30001A7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E46DC81BB801E30001A7CC /* MP3ExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E46DCA1BB801E30001A7CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E46DD31BB801E30001A7CC /* MP3ExperimentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13E46DC51BB801E30001A7CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E46DAE1BB801E30001A7CC /* MP3Experiment */;
+			targetProxy = 13E46DC41BB801E30001A7CC /* PBXContainerItemProxy */;
+		};
+		13E46DD01BB801E30001A7CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13E46DAE1BB801E30001A7CC /* MP3Experiment */;
+			targetProxy = 13E46DCF1BB801E30001A7CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13E46DB61BB801E30001A7CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E46DB71BB801E30001A7CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13E46DBB1BB801E30001A7CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E46DBC1BB801E30001A7CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13E46DD51BB801E30001A7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E46DD61BB801E30001A7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E46DD81BB801E30001A7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MP3Experiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3Experiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13E46DD91BB801E30001A7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MP3Experiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3Experiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13E46DDB1BB801E30001A7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MP3ExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3ExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP3Experiment.app/MP3Experiment";
+			};
+			name = Debug;
+		};
+		13E46DDC1BB801E30001A7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MP3ExperimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3ExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MP3Experiment.app/MP3Experiment";
+			};
+			name = Release;
+		};
+		13E46DDE1BB801E30001A7CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MP3ExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3ExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MP3Experiment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		13E46DDF1BB801E30001A7CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MP3ExperimentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manish.MP3ExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MP3Experiment;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E46DAA1BB801E20001A7CC /* Build configuration list for PBXProject "MP3Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E46DD51BB801E30001A7CC /* Debug */,
+				13E46DD61BB801E30001A7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E46DD71BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E46DD81BB801E30001A7CC /* Debug */,
+				13E46DD91BB801E30001A7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E46DDA1BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3ExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E46DDB1BB801E30001A7CC /* Debug */,
+				13E46DDC1BB801E30001A7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E46DDD1BB801E30001A7CC /* Build configuration list for PBXNativeTarget "MP3ExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E46DDE1BB801E30001A7CC /* Debug */,
+				13E46DDF1BB801E30001A7CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E46DA71BB801E20001A7CC /* Project object */;
+}
