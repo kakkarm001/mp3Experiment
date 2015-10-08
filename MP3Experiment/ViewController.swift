@@ -61,14 +61,22 @@ class ViewController: UIViewController {
     }
 
     
+    @IBOutlet weak var playButton: UIButton!
+    let stopImg = UIImage(named: "stop.png") as UIImage!
+    let playImg = UIImage(named: "play.png") as UIImage!
+
+    
     @IBAction func playBtn(sender: AnyObject) {
         audioPlayer.prepareToPlay()
         
         if isPlaying {
             audioPlayer.pause()
             isPlaying = false
+            playButton.setImage(UIImage(named: "play.png"), forState: UIControlState.Normal)
+            
         } else {
             audioPlayer.play()
+            playButton.setImage(UIImage(named: "stop.png"), forState: UIControlState.Normal)
             isPlaying = true
         }
     }
@@ -97,15 +105,6 @@ class ViewController: UIViewController {
         changeDays.text = String(days)
         
     }
-
-
-
-
-
-
-
-
-    
     
 }
 

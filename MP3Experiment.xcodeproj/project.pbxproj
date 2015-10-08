@@ -46,6 +46,7 @@
 		131F08A31BB9D998002B9294 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		131F08A41BB9D999002B9294 /* sawesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sawesome.ttf; sourceTree = "<group>"; };
 		131F08A51BB9D999002B9294 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		131F08AB1BBE8BF8002B9294 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "digital-7.ttf"; path = "../../../Downloads/app/digital-7/digital-7.ttf"; sourceTree = "<group>"; };
 		13E46DAF1BB801E30001A7CC /* MP3Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP3Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E46DB21BB801E30001A7CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E46DB41BB801E30001A7CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 		131F08A01BB9D998002B9294 /* Recourses */ = {
 			isa = PBXGroup;
 			children = (
+				131F08AB1BBE8BF8002B9294 /* digital-7.ttf */,
 				131F08A11BB9D998002B9294 /* bg.png */,
 				131F08A21BB9D998002B9294 /* mp3.mp3 */,
 				131F08A31BB9D998002B9294 /* play.png */,

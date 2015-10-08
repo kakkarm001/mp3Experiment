@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MP3Experiment/ViewController.swift"
-            timestampString = "465163124.12876"
+            timestampString = "465472808.389013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -72,11 +72,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MP3Experiment/ViewController.swift"
-            timestampString = "465163066.462299"
+            timestampString = "465472187.205363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "countDown(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -88,13 +88,91 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MP3Experiment/ViewController.swift"
-            timestampString = "465163070.797635"
+            timestampString = "465471997.997142"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "countDown(_:)"
-            landmarkType = "5">
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MP3Experiment/ViewController.swift"
+            timestampString = "465992268.875033"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MP3Experiment.ViewController.changeDays.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "MP3Experiment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manish/Desktop/MP3Experiment/MP3Experiment/ViewController.swift"
+                  timestampString = "465994469.387537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MP3Experiment.ViewController.changeDays.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UILabel&gt;"
+                  moduleName = "MP3Experiment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manish/Desktop/MP3Experiment/MP3Experiment/ViewController.swift"
+                  timestampString = "465994469.388422"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MP3Experiment.ViewController.init (MP3Experiment.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; MP3Experiment.ViewController"
+                  moduleName = "MP3Experiment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manish/Desktop/MP3Experiment/MP3Experiment/ViewController.swift"
+                  timestampString = "465994469.388965"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MP3Experiment.ViewController.init (MP3Experiment.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;MP3Experiment.ViewController&gt;"
+                  moduleName = "MP3Experiment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manish/Desktop/MP3Experiment/MP3Experiment/ViewController.swift"
+                  timestampString = "465994469.389402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
